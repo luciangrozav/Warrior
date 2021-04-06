@@ -4,4 +4,5 @@ public class Boxing extends Warrior{
 
     String gloves;
 
+
 }
