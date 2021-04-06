@@ -1,4 +1,4 @@
-package org.fasttrackit;
+package org.fasttrackit.Domain;
 
 public class Judo extends Warrior{
 

@@ -1,10 +1,16 @@
-package org.fasttrackit;
+package org.fasttrackit.Domain;
+
+import org.fasttrackit.Domain.Boxing;
+import org.fasttrackit.Domain.Judo;
+import org.fasttrackit.Domain.Karate;
+import org.fasttrackit.Domain.Taekwondo;
 
 import java.util.Scanner;
 
 public class Game {
 
     Scanner scanner = new Scanner(System.in);
+
     Boxing boxer1 = new Boxing();
     Taekwondo taekwondo1 = new Taekwondo();
     Karate karate1 = new Karate();
@@ -23,7 +29,7 @@ public class Game {
         System.out.println("Player 2: Please choose your fighter:");
         int type2 = scanner.nextInt();
         initialise2(type2);
-        System.out.println("The moves are: 1-Punching, 2- Kicking, 3-Takedown, 4- Defence");
+        System.out.println("The moves are: Punch, Kick, Takedown, Defence");
         System.out.println("Start fighting!");
 
     }
@@ -110,5 +116,29 @@ public class Game {
         if (a < 1 || a > 4) {
             System.out.println("Invalid number entered!");
         }
+    }
+    private void fight(char move1, char move2)
+    {
+        int life1 = 20;
+        int life2 = 20;
+
+        while ((life1 != 0) && (life2 != 0))
+        {
+            if ((move1 == 'a' || move1 == 's' || move1 == 'd') && (move2 == 'a' || move2 == 's' || move2 == 'd')) {
+                life1 = life1 - 2;
+                life2 = life2 - 2;
+            }
+            if ((move1 == 'a' || move1 == 's' || move1 == 'd') && (move2 == 'x')) {
+                life2--;
+            }
+            if ((move1 == 'x') && (move2 == 'a' || move2 == 's' || move2 == 'd'))
+                life1--;
+        }
+        if(life1==0 && life2 ==0)
+            System.out.println("Both players are dead!!");
+        else if(life1==0)
+            System.out.println("Player2 wins the fight!!");
+        else if (life2==0)
+            System.out.println("Player1 wins the fight!!");
     }
 }

@@ -1,7 +1,9 @@
 package org.fasttrackit;
 
 
-public class App 
+import org.fasttrackit.Domain.Game;
+
+public class App
 {
     public static void main( String[] args )
 

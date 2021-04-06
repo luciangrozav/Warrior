@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bee0a40f-36aa-4d4f-a88d-4d11845e6351" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Boxing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Boxing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Judo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Judo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Karate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Karate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Taekwondo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Taekwondo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Warrior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Boxing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Domain/Boxing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Domain/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Judo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Domain/Judo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Karate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Domain/Karate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Taekwondo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Domain/Taekwondo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Domain/Warrior.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../racing-game" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -47,7 +49,7 @@
       <module name="Warrior" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.fasttrackit.*" />
+          <option name="PATTERN" value="org.fasttrackit.Domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,15 +57,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,7 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1617608723158</updated>
       <workItem from="1617608724332" duration="4081000" />
-      <workItem from="1617694552372" duration="3562000" />
+      <workItem from="1617694552372" duration="3759000" />
+      <workItem from="1617701939186" duration="3916000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing warriors;">
       <created>1617612821808</created>
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617612821808</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initializing warriors + moves;">
+      <created>1617698331316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617698331316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initializing warriors;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initializing warriors;" />
+    <MESSAGE value="Initializing warriors + moves;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initializing warriors + moves;" />
   </component>
 </project>
