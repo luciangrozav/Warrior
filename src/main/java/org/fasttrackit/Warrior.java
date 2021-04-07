@@ -1,4 +1,4 @@
-package org.fasttrackit.Domain;
+package org.fasttrackit;
 
 import java.util.Scanner;
 
