@@ -10,8 +10,7 @@ public class App
         System.out.println("You can pick only one fighter:");
         System.out.println("1) Boxer");
         System.out.println("2) Karate fighter");
-        System.out.println("3) Taekwondo fighter");
-        System.out.println("4) Judo fighter");
+        System.out.println("3) Judo fighter");
         Game game = new Game();
         game.start();
     }

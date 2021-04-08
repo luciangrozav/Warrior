@@ -10,5 +10,11 @@ public class Warrior {
     int weight;
     int height;
 
+    int punch;
+    int kick;
+    int takedown;
+
+    int life;
+    int stamina;
 
 }

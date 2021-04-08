@@ -2,6 +2,6 @@ package org.fasttrackit;
 
 public class Karate extends Warrior {
 
-    String karategi;  //uniform
+    String beltk; // color of belt -> experience of the warrior
 
 }

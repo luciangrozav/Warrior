@@ -2,7 +2,7 @@ package org.fasttrackit;
 
 public class Judo extends Warrior {
 
-    String judogi;  //uniform
+    String beltj; // color of belt -> experience of the warrior
 
 
 }
